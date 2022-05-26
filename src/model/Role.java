@@ -27,7 +27,7 @@ public class Role {
 
     public static void add(Role role) {
         String query = "insert into role(RoleName) values('" + role.getRoleName() + "')";
-        DbOperations.setDataOrDelete(query, "Role created successfullytestest");
+        DbOperations.setDataOrDelete(query, "Role created successfully");
     }
 
     public static ArrayList<Role> getAllRecords() {
